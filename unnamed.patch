@@ -1,0 +1,197 @@
+Index: .idea/artifacts/Intellij_war_exploded.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/artifacts/Intellij_war_exploded.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
++++ .idea/artifacts/Intellij_war_exploded.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
+@@ -0,0 +1,19 @@
++<component name="ArtifactManager">
++  <artifact type="exploded-war" name="Intellij:war exploded">
++    <output-path>$PROJECT_DIR$/out/artifacts/Intellij_war_exploded</output-path>
++    <root id="root">
++      <element id="javaee-facet-resources" facet="Intellij/web/Web" />
++      <element id="directory" name="WEB-INF">
++        <element id="directory" name="classes">
++          <element id="module-output" name="Intellij" />
++        </element>
++        <element id="directory" name="lib">
++          <element id="library" level="project" name="Gradle: junit:junit:4.12" />
++          <element id="library" level="project" name="Gradle: org.hamcrest:hamcrest-core:1.3" />
++          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
++          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
++        </element>
++      </element>
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Spring_5_2_3_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Spring_5_2_3_RELEASE.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
++++ .idea/libraries/Spring_5_2_3_RELEASE.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
+@@ -0,0 +1,26 @@
++<component name="libraryTable">
++  <library name="Spring-5.2.3.RELEASE" type="spring">
++    <properties version="5.2.3.RELEASE" />
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/lib/spring-instrument-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-aspects-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-expression-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-beans-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-aop-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-context-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-jms-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-messaging-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-orm-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-oxm-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/aopalliance-1.0.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-context-support-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-tx-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-test-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-core-5.2.3.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Spring_MVC_5_2_3_RELEASE.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Spring_MVC_5_2_3_RELEASE.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
++++ .idea/libraries/Spring_MVC_5_2_3_RELEASE.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Spring MVC-5.2.3.RELEASE" type="spring-mvc">
++    <properties version="5.2.3.RELEASE" />
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-5.2.3.RELEASE.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/spring-web-5.2.3.RELEASE.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/modules/Intellij.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules/Intellij.iml	(revision 1382edc51007f1e43c703507444c794112a30be3)
++++ .idea/modules/Intellij.iml	(revision 1382edc51007f1e43c703507444c794112a30be3)
+@@ -0,0 +1,18 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../web/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$/../../web" relative="/" />
++        </webroots>
++      </configuration>
++    </facet>
++    <facet type="Spring" name="Spring">
++      <configuration />
++    </facet>
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision ed83b62d9d62c019a899cf0da38f5df81c965570)
++++ .idea/vcs.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
+@@ -5,4 +5,7 @@
+       <list />
+     </option>
+   </component>
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>x-windows-949
+===================================================================
+--- src/main/resources/application.properties	(revision 1382edc51007f1e43c703507444c794112a30be3)
++++ src/main/resources/application.properties	(revision 1382edc51007f1e43c703507444c794112a30be3)
+@@ -0,0 +1,1 @@
++server.port = 8090
+\ No newline at end of file
+Index: web/WEB-INF/applicationContext.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- web/WEB-INF/applicationContext.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
++++ web/WEB-INF/applicationContext.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<beans xmlns="http://www.springframework.org/schema/beans"
++       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
++
++</beans>
+\ No newline at end of file
+Index: web/WEB-INF/dispatcher-servlet.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- web/WEB-INF/dispatcher-servlet.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
++++ web/WEB-INF/dispatcher-servlet.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<beans xmlns="http://www.springframework.org/schema/beans"
++       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
++
++</beans>
+\ No newline at end of file
+Index: web/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- web/WEB-INF/web.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
++++ web/WEB-INF/web.xml	(revision 1382edc51007f1e43c703507444c794112a30be3)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
++         version="4.0">
++    <context-param>
++        <param-name>contextConfigLocation</param-name>
++        <param-value>/WEB-INF/applicationContext.xml</param-value>
++    </context-param>
++    <listener>
++        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
++    </listener>
++    <servlet>
++        <servlet-name>dispatcher</servlet-name>
++        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
++        <load-on-startup>1</load-on-startup>
++    </servlet>
++    <servlet-mapping>
++        <servlet-name>dispatcher</servlet-name>
++        <url-pattern>*.form</url-pattern>
++    </servlet-mapping>
++</web-app>
+\ No newline at end of file
